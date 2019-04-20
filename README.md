@@ -1,1 +1,1 @@
-# minesweeper
+This was a personal project to recreate minesweeper using JavaScript. Overall, I really enjoyed working on this game and learned a lot in the process. It was the first time I used a recursive function inside of a web application.
