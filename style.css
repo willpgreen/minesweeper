@@ -1,0 +1,129 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url(../portfolio/assets/fonts/digital-7\ \(mono\).ttf);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #0D8584;
+    text-align: center;
+}
+
+
+#level {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#level-title {
+    margin: 10px;
+}
+
+#level-select {
+    margin: 10px;
+    font: 16px;
+}
+
+#game {
+    background-color: lightgray;
+    display: inline-block;
+    padding: 15px;
+    border-bottom: 3.5px solid #AAAAAA;
+    border-left: 3.5px solid #EEEEEE;
+    border-top: 3.5px solid #EEEEEE;
+    border-right: 3.5px solid #AAAAAA;
+    margin: 0px auto;
+}
+
+#game-status {
+    display: flex;
+    justify-content: space-between;
+}
+
+#reset {
+    background-color: lightgray;
+    color: black;
+    border-bottom: 2px solid #7B7B7B;
+    border-left: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #7B7B7B;
+    /* margin: 10px 0; */
+}
+
+#reset:hover {
+    cursor: pointer;
+}
+
+#smiley {
+    font-size: 24px;
+    background-color: yellow;
+    border-radius: 50%;
+    
+}
+
+#timer, #flag-display {
+    font-family:'digital-clock-font';
+    color: red;
+    background: black;
+    font-size: 36px;
+    /* margin: 0 10px; */
+    border-bottom: 2px solid #4A4A4A;
+    border-left: 2px solid #7B7B7B;
+    border-top: 2px solid #7B7B7B;
+    border-right: 2px solid #4A4A4A;
+    text-align: center;
+}
+
+#container {
+    border-bottom: 2px solid #7B7B7B;
+    border-left: 2px solid #ffffff;
+    border-top: 2px solid #ffffff;
+    border-right: 2px solid #7B7B7B;
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 1px;
+    margin-top: 10px;
+}
+
+td {
+    height: 24px;
+    width: 24px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.mine {
+    background-color: red;
+}
+
+.not-clicked {
+    background-color: #B7B7B7;
+    border: 1.5px solid;
+    border-top-color: #ffffff;
+    border-right-color: gray;
+    border-bottom-color: gray;
+    border-left-color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.clicked {
+    background-color: lightgray;
+    border: 1.5px solid rgb(182, 181, 181);
+}
+
+.flagged-mine1 {
+    background: linear-gradient(to right bottom, #ffffff 0%,#ffffff 49.9%,red 50%,red 51%,#ffffff 51.1%,#ffffff 100%);
+    background-image: linear-gradient(to bottom right,  transparent calc(50% - 1px), red, transparent calc(50% + 1px)); 
+}
+
+#notify {
+    padding: 20px;
+    font-size: 24px;
+}
+
