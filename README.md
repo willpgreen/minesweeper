@@ -17,3 +17,9 @@ Minesweeper dates back to the 1960's. The goal of the game is to clear a grid co
 3. Right click to place a flag on a suspected mine. Right click again to remove the flag.
 
 4. Keep clicking until only the mines are left. Hit a mine, and you lose. But it's ok, just click the little face at the top and try again.
+
+## Technologies Used
+The Triumvirate:
+- HTML
+- CSS
+- JavaScript
