@@ -31,7 +31,7 @@ The HTML is rather concise. The gameboard itself is a simple table, and the cont
 Style wise, I took a lot of inspiration from the old Windows version. My biggest challenge on the CSS end was styling the table itself. The borders in particular were a bit tricky, especially for the cleared cells.
 
 #### JavaScript
-This was only my second JavaScript web app and I learned a lot working on this project. Here's a rundown of the highlights:
+I was about a month in to learning JavaScript when I built this web app and I learned a lot along the way. Here's a rundown of the highlights:
 - Writing a recursive function to clear surrounding cells when and empty one is clicked
 - Creating a functional timer to display time elapsed
 - Dynamically creating a table based off of the level selected
